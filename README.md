@@ -9,8 +9,7 @@ Example serves different use cases and some could serve as a starter template.
 
 | folder/example    | description | extra info and links |
 |-------------------|-------------|----------------------|
-| hello-dotnet-container | outputs OS & computer architecture | see also [video](https://www.youtube.com/watch?v=scIAwLrruMY&list=WL&index=2) and original source on [github](https://github.com/richlander/container-workshop) for detailed information |
-| another example | ik weet het even niet |  dssddsdsds |
+| hello-dotnet-container | console output of OS & computer architecture | see also [video](https://www.youtube.com/watch?v=scIAwLrruMY&list=WL&index=2) and original source on [github](https://github.com/richlander/container-workshop) for detailed information |
 
 
 
@@ -71,14 +70,31 @@ REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
 hello-dotnet-container   latest    bbf52cfe7ff0   11 seconds ago   85.7MB
 ```
 
+## Run
 
+### Launch a container
 
+```powershell
+docker run --rm [example-project]
+```
+example 
+```
+docker run --rm hello-dotnet-container
+
+Hello dot-net-container
+OSDescription: Debian GNU/Linux 12 (bookworm)
+OSArchitecture: X64!
+```
 
 ## Extra info 
 [.NET container samples](https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md)
 
-[OCI image publish](https://learn.microsoft.com/dotnet/core/docker/publish-as-container) 
+[Docker Run docs](https://docs.docker.com/engine/reference/commandline/run/)
 
 [Chiseled Containers](https://devblogs.microsoft.com/dotnet/dotnet-6-is-now-in-ubuntu-2204/#net-in-chiseled-ubuntu-containers)
 
 [Cross-compilation](https://devblogs.microsoft.com/dotnet/improving-multiplatform-container-support/) 
+
+[OCI image publish](https://learn.microsoft.com/dotnet/core/docker/publish-as-container) 
+
+
