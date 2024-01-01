@@ -10,6 +10,8 @@ Example serves different use cases and some could serve as a starter template.
 | folder/example    | description | extra info and links |
 |-------------------|-------------|----------------------|
 | hello-dotnet-container | console output of OS & computer architecture | see also [video](https://www.youtube.com/watch?v=scIAwLrruMY&list=WL&index=2) and original source on [github](https://github.com/richlander/container-workshop) for detailed information |
+| WorkerServiceNet8 | Background service with structured logging (serilog) | see also [serilog](https://serilog.net/) webpage |
+
 
 
 
