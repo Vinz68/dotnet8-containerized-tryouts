@@ -1,11 +1,5 @@
-using System;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Serilog;
-using Serilog.Events;
-using Serilog.Formatting.Json;
 using WorkerServiceNet8.Services;
-
 
 namespace WorkerServiceNet8;
 
@@ -14,7 +8,6 @@ public class Program
     public static int Main(string[] args)
     {
         Log.Logger = new LoggerConfiguration()
-           //.WriteTo.Console(new JsonFormatter())
            .WriteTo.Console()
            .CreateLogger();
 

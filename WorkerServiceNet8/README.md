@@ -30,7 +30,7 @@ Logging infrastructure default implementation for Microsoft.Extensions.Logging
 Low-level Serilog provider for Microsoft.Extensions.Logging
 
 ### Serilog.Sinks.Console and Serilog.Sinks.File
-For console and file output
+For logging output to console and file output
 
 ### Serilog.Sinks.SyslogMessages
 Fully-featured Serilog sink that logs events to remote syslog servers using UDP, TCP, and TLS over TCP, 
