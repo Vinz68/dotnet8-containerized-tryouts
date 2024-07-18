@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "hello-dotnet-container": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -2,6 +2,6 @@
 
 Console.WriteLine("Hello dot-net-container");
 Console.WriteLine($"OSDescription: {RuntimeInformation.OSDescription}");
- Console.WriteLine($"OSArchitecture: {RuntimeInformation.OSArchitecture}!");
+Console.WriteLine($"OSArchitecture: {RuntimeInformation.OSArchitecture}!");
 
  
